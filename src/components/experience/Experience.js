@@ -8,7 +8,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { experiences } from '../../data/constants';
 import ExperienceCard  from '../cards/ExperienceCard';
-
+ 
 
 const Container = styled.div`
     display: flex;
@@ -71,7 +71,7 @@ const Experience = () => {
     <Container id='experience'>
         <Wrapper>
             <Title>Experience</Title>
-            <Desc>Here are some of my projects</Desc>
+            <Desc>Some of my work Experiences</Desc>
             <TimelineSection>
                 <Timeline>
                     {experiences.map((experience,index) => (

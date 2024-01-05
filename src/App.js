@@ -24,7 +24,7 @@ function App() {
         <Body>
           <HeroSection/>
           <Skills/>
-          {/* <Experience/> */}
+          <Experience/>
           <Projects/>
           <Education/>
           <Contact/>

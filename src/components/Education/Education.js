@@ -59,6 +59,10 @@ const Desc = styled.div`
         margin-top: 12px;
         font-size: 16px;
     }
+    @media (max-width: 640px) {
+        margin: 12px 10px 0 10px;
+        font-size: 16px;
+    }
 `;
 
 const TimelineSection = styled.div`

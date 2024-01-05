@@ -7,7 +7,7 @@ import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
   width: 100%;
-  padding: 2rem 0;
+  padding: 1px 0;
   display: flex;
   justify-content: center;
 `;

@@ -66,6 +66,10 @@ const ContactForm = styled.form`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
+  @media (max-width: 640px) {
+    margin-top: 5px;
+    font-size: 16px;
+  }
 `
 
 const ContactTitle = styled.div`

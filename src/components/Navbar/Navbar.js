@@ -122,7 +122,7 @@ const MobileMenu = styled.div`
     right: 0;
     width: 100%;
     padding: 12px 40px 24px 40px;
-    background: ${({theme}) => theme.card_light+99};
+    background: #ffffff;
     transition: all 0.3s ease-in-out;
     transform: ${({open})=> open? 'translate(0)' : 'translate(100%)'};
     border-radius: 0 0 20px 20px;
@@ -132,13 +132,13 @@ const MobileMenu = styled.div`
 `;
 
 const MobileMenuLink = styled(LinkR)`
-    color: ${({theme})=>theme.text_primary};
+    color: #949494;
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     &:hover{
-        color: ${({theme})=>theme.primary};
+        color: #333333;
     }
 `;
 

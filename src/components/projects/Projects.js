@@ -60,12 +60,16 @@ export const ToggleButtonGroup = styled.div`
     margin: 22px 0px;
     @media (max-width: 768px) {
         font-size: 12px;
+        margin: 22px 10px;
     }
-`
+    @media (max-width: 640px) {
+      font-size: 12px;
+      margin: 22px 20px;
+    }
+`;
 
 export const ToggleButton = styled.div`
     padding: 8px 18px;
-    margin: 0 10px;
     border-radius: 6px;
     cursor: pointer;
     ${({ active}) =>
@@ -81,6 +85,13 @@ export const ToggleButton = styled.div`
     @media (max-width: 768px) {
         padding: 6px 8px;
         border-radius: 4px;
+    }
+    @media (max-width: 640px) {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      margin: 0px 4px;
+      border-radius: 4px;
     }
 `
 export const Divider = styled.div`
@@ -119,9 +130,9 @@ const Projects = ({openModal,setOpenModal}) => {
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton active value="all" onClick={() => setToggle('all')}>ALL</ToggleButton>
             :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton value="all" onClick={() => setToggle('all')}>ALL</ToggleButton>
           }
           <Divider />
           {toggle === 'web app' ?

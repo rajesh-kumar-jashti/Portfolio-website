@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import {Bio} from "../../data/constants"
 import Typewriter from 'typewriter-effect'
-import HeroImg from "../images/heroimag.png";
+import HeroImg from "../images/heroimag1.png";
 
 const HeroContainer = styled.div`
     background: #ffffff;
@@ -12,10 +12,10 @@ const HeroContainer = styled.div`
     padding: 80px 30px;
 
     @media screen and (max-width: 960px) {
-        padding: 66px 16px;
+        padding: 5px 5px;
     }
     @media screen and (max-width: 640) {
-        padding: 32px 16px;
+        padding: 5px 5px;
     }
 `;
 
@@ -111,18 +111,20 @@ const Span = styled.span`
 
 export const Image = styled.img`
   position: relative;
-  width: 100%;
-  height: 600px;
-  border-radius: 45%;
+  width: 70%;
+  border-radius: 30%;
   @media (max-width: 768px) {
-    max-width: 400px;
-    max-height: 400px;
+    width: 350px;
+    height: 500px;
+    margin-left: 40px;
+  }
+  @media (max-width: 680px) {
+    width: 350px;
+    height: 500px;
+    margin-left: 40px;
   }
 
-  @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
-  }
+  
 `;
 
 const SubTitle = styled.div`
@@ -138,6 +140,8 @@ const SubTitle = styled.div`
 
   @media screen and (max-width: 640px) {
     font-size: 16px;
+    padding: 0 15px;
+    text-align: justify;
     line-height: 32px;
   }
 `;

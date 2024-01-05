@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import styled from "styled-components";
+import Projects from './components/projects/Projects';
+import Navbar from './components/Navbar/Navbar';
+import Skills from './components/Skills/Skills';
+import Education from './components/Education/Education';
+import HeroSection from './components/HeroSection/HeroSection';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Experience from './components/experience/Experience';
+import Footer from './components/Footer/Footer';
+import Contact from './components/contact/Contact';
+
+const Body =styled.div`
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Navbar/>
+        <Body>
+          <HeroSection/>
+          <Skills/>
+          <Experience/>
+          <Projects/>
+          <Education/>
+          <Contact/>
+          <Footer/>
+        </Body>
+      </Router>
   );
 }
 

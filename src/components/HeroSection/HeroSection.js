@@ -170,8 +170,6 @@ const ResumeButton = styled.a`
 `;
 
 
-
-
 function HeroSection() {
   return (
     <div id='about'>

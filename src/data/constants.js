@@ -10,7 +10,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/rajesh-kumar-jashti",
     resume:
-      "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+      "https://drive.google.com/file/d/1_nls8f6pl4nRpD2VN7pFiK0k9eFXkR2S/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/rajesh-kumar-jashti-416496231/",
     twitter: "https://twitter.com/RJashti",
     insta: "https://www.instagram.com/rajeshkumarjashti_21/",
@@ -208,6 +208,24 @@ export const skills = [
   ];
   
   export const projects = [
+    {
+      id: 2,
+      title: "Books Store System",
+      description:
+        "Books Store System is a web application that allows user to sell books, manage books, update books, upload books and it is developed using MERN stack technologies.",
+      image:
+        "https://github.com/rajesh-kumar-jashti/books-store/blob/main/mern-client/src/assets/books_store_img.png?raw=true",
+      tags: [
+        "React",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Firebase",
+        "Tailwind CSS"
+      ],
+      category: "web app",
+      github: "https://github.com/rajesh-kumar-jashti/books-store",
+    },
     {
       id: 9,
       title: "CRUD API",

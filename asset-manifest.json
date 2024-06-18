@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rajesh-kumar-jashti/Portfolio-website/static/css/main.f1595392.css",
+    "main.js": "/rajesh-kumar-jashti/Portfolio-website/static/js/main.c1598d8c.js",
+    "static/media/heroimag1.png": "/rajesh-kumar-jashti/Portfolio-website/static/media/heroimag1.74c1fbf239042760804b.png",
+    "index.html": "/rajesh-kumar-jashti/Portfolio-website/index.html",
+    "main.f1595392.css.map": "/rajesh-kumar-jashti/Portfolio-website/static/css/main.f1595392.css.map",
+    "main.c1598d8c.js.map": "/rajesh-kumar-jashti/Portfolio-website/static/js/main.c1598d8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1595392.css",
+    "static/js/main.c1598d8c.js"
+  ]
+}

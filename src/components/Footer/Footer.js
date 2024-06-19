@@ -104,7 +104,6 @@ function Footer() {
         <Copyright>
           &copy; 2023 Rajesh Kumar Jashti. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );
